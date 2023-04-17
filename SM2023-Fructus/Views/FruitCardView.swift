@@ -29,7 +29,12 @@ struct FruitCardView: View {
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.35),
                             radius: 2, x: 2, y: 2)
                 
-                // Fruit: Headline
+                Text("Blueberries are sweet, nutritious, and wildly popular fruit all over the world.")
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 16)
+                    .frame(maxWidth: 480)
+                
                 // Button: Start
                 
             } //: VStack
