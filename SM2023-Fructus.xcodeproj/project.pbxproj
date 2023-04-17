@@ -11,6 +11,7 @@
 		4A2FE0CC29EDAE18001B44F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FE0CB29EDAE18001B44F9 /* ContentView.swift */; };
 		4A2FE0CE29EDAE19001B44F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2FE0CD29EDAE19001B44F9 /* Assets.xcassets */; };
 		4A2FE0D129EDAE19001B44F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2FE0D029EDAE19001B44F9 /* Preview Assets.xcassets */; };
+		4A2FE0DA29EDB512001B44F9 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FE0D929EDB512001B44F9 /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4A2FE0CB29EDAE18001B44F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A2FE0CD29EDAE19001B44F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2FE0D029EDAE19001B44F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A2FE0D929EDB512001B44F9 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4A2FE0C829EDAE18001B44F9 /* SM2023-Fructus */ = {
 			isa = PBXGroup;
 			children = (
+				4A2FE0D829EDB504001B44F9 /* Views */,
 				4A2FE0D729EDB3D4001B44F9 /* App */,
 				4A2FE0CD29EDAE19001B44F9 /* Assets.xcassets */,
 				4A2FE0CF29EDAE19001B44F9 /* Preview Content */,
@@ -73,6 +76,14 @@
 				4A2FE0CB29EDAE18001B44F9 /* ContentView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		4A2FE0D829EDB504001B44F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A2FE0D929EDB512001B44F9 /* FruitCardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2FE0DA29EDB512001B44F9 /* FruitCardView.swift in Sources */,
 				4A2FE0CC29EDAE18001B44F9 /* ContentView.swift in Sources */,
 				4A2FE0CA29EDAE18001B44F9 /* SM2023_FructusApp.swift in Sources */,
 			);
