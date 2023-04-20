@@ -17,7 +17,7 @@ struct SM2023_FructusApp: App {
             if showOnboarding {
                 OnboardingView()
             } else {
-                ContentView()
+                FruitListView()
             }
         }
     }
