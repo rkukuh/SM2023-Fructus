@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let fruits: [Fruit] = fruitData
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List(fruits.shuffled()) { fruit in  
+                FruitRowView(fruit: fruit)
+                    .padding(.vertical, 4)
+            }
+            .navigationTitle("Fruits")
         }
-        .padding()
     }
 }
 
