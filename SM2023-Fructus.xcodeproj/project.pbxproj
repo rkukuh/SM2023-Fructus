@@ -48,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				4A1B39A629EF5C8400BF281B /* Fruit.swift */,
+				4A1B39A829EF605F00BF281B /* Data */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -79,10 +80,9 @@
 		4A2FE0C829EDAE18001B44F9 /* SM2023-Fructus */ = {
 			isa = PBXGroup;
 			children = (
-				4A1B39A829EF605F00BF281B /* Data */,
+				4A2FE0D729EDB3D4001B44F9 /* App */,
 				4A1B39A529EF5C7300BF281B /* Models */,
 				4A2FE0D829EDB504001B44F9 /* Views */,
-				4A2FE0D729EDB3D4001B44F9 /* App */,
 				4A2FE0CD29EDAE19001B44F9 /* Assets.xcassets */,
 				4A2FE0CF29EDAE19001B44F9 /* Preview Content */,
 			);
