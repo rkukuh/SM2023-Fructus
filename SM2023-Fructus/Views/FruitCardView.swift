@@ -8,13 +8,9 @@
 import SwiftUI
 
 struct FruitCardView: View {
-    // MARK: - Properties
     
     let fruit: Fruit
-    
     @State private var isAnimating: Bool = false
-    
-    // MARK: - Body
     
     var body: some View {
         ZStack {
