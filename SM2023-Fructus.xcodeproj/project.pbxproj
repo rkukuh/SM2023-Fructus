@@ -71,13 +71,13 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		4A1B39AF29F1A0C200BF281B /* Card View */ = {
+		4A1B39AF29F1A0C200BF281B /* Onboarding Views */ = {
 			isa = PBXGroup;
 			children = (
 				4A2FE0D929EDB512001B44F9 /* FruitCardView.swift */,
 				4A2FE0DB29EDBC93001B44F9 /* StartButtonView.swift */,
 			);
-			path = "Card View";
+			path = "Onboarding Views";
 			sourceTree = "<group>";
 		};
 		4A1B39B029F1A0D300BF281B /* Fruit Views */ = {
@@ -90,6 +90,13 @@
 				4A1B39B329F2864900BF281B /* SourceLinkView.swift */,
 			);
 			path = "Fruit Views";
+			sourceTree = "<group>";
+		};
+		4A1B39B929F2D6AA00BF281B /* Setting Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Setting Views";
 			sourceTree = "<group>";
 		};
 		4A2FE0BD29EDAE18001B44F9 = {
@@ -134,6 +141,7 @@
 				4A2FE0C929EDAE18001B44F9 /* SM2023_FructusApp.swift */,
 				4A2FE0DD29EDC1A0001B44F9 /* OnboardingView.swift */,
 				4A2FE0CB29EDAE18001B44F9 /* FruitListView.swift */,
+				4A1B39B729F29A2F00BF281B /* SettingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -141,9 +149,9 @@
 		4A2FE0D829EDB504001B44F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4A1B39B729F29A2F00BF281B /* SettingView.swift */,
-				4A1B39AF29F1A0C200BF281B /* Card View */,
+				4A1B39AF29F1A0C200BF281B /* Onboarding Views */,
 				4A1B39B029F1A0D300BF281B /* Fruit Views */,
+				4A1B39B929F2D6AA00BF281B /* Setting Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
