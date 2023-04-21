@@ -15,7 +15,7 @@ struct FruitDetailView: View {
         ScrollView {
             VStack(alignment: .center) {
                 
-                // Header goes here...
+                FruitHeaderView(fruit: fruit)
                 
                 VStack(alignment: .leading, spacing: 20) {
                     Text(fruit.title)
@@ -38,7 +38,8 @@ struct FruitDetailView: View {
                 .padding(.horizontal, 20)
                 
             } //: VStack
-        } //: ScroolView
+        } //: ScrollView
+        .ignoresSafeArea()
     }
 }
 
