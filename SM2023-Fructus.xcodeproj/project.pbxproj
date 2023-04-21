@@ -76,16 +76,15 @@
 			path = "Card View";
 			sourceTree = "<group>";
 		};
-		4A1B39B029F1A0D300BF281B /* Fruit List */ = {
+		4A1B39B029F1A0D300BF281B /* Fruit Views */ = {
 			isa = PBXGroup;
 			children = (
-				4A2FE0CB29EDAE18001B44F9 /* FruitListView.swift */,
 				4A1B39AB29F1903100BF281B /* FruitRowView.swift */,
 				4A1B39AD29F19D7900BF281B /* FruitDetailView.swift */,
 				4A1B39B129F2680300BF281B /* FruitHeaderView.swift */,
 				4A1B39B329F2864900BF281B /* SourceLinkView.swift */,
 			);
-			path = "Fruit List";
+			path = "Fruit Views";
 			sourceTree = "<group>";
 		};
 		4A2FE0BD29EDAE18001B44F9 = {
@@ -129,6 +128,7 @@
 			children = (
 				4A2FE0C929EDAE18001B44F9 /* SM2023_FructusApp.swift */,
 				4A2FE0DD29EDC1A0001B44F9 /* OnboardingView.swift */,
+				4A2FE0CB29EDAE18001B44F9 /* FruitListView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				4A1B39AF29F1A0C200BF281B /* Card View */,
-				4A1B39B029F1A0D300BF281B /* Fruit List */,
+				4A1B39B029F1A0D300BF281B /* Fruit Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
