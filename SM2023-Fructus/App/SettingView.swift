@@ -17,11 +17,10 @@ struct SettingView: View {
                 
                 VStack(spacing: 5) {
                     
-                    GroupBox(label:
-                        SettingLabelView(text: "Fructus", image: "info.circle")
+                    GroupBox(
+                        label: SettingLabelView(text: "Fructus", image: "info.circle")
                     ) {
                         Divider()
-                            .padding(.vertical, 4)
                         
                         HStack {
                             Image("logo")
@@ -33,6 +32,17 @@ struct SettingView: View {
                             Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit euismod dui ut hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
                                 .font(.footnote)
                         }
+                    } //: GroupBox
+                    
+                    GroupBox(
+                        label: SettingLabelView(text: "Application", image: "apps.iphone")
+                    ) {
+                        Divider()
+                        
+                        SettingRowView(label: "Developer", content: "R. Kukuh")
+                        SettingRowView(label: "Website", linkLabel: "Personal Blog", linkDestination: "http://apple.com")
+                        SettingRowView(label: "Version", content: "1.0")
+                        
                     } //: GroupBox
                     
                 } //: VStack
