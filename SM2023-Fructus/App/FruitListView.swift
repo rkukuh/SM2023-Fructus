@@ -11,6 +11,8 @@ struct FruitListView: View {
     
     let fruits: [Fruit] = fruitData
     
+    @State private var isShowingSettings: Bool = false
+    
     var body: some View {
         NavigationStack {
             List(fruits.shuffled()) { fruit in  
@@ -20,6 +22,16 @@ struct FruitListView: View {
                 }
             }
             .navigationTitle("Fruits")
+            .toolbar() {
+                Button {
+                    isShowingSettings = true
+                } label: {
+                    Image(systemName: "slider.horizontal.3")
+                }
+                .sheet(isPresented: $isShowingSettings) {
+                    SettingView()
+                }
+            }
         }
     }
 }
