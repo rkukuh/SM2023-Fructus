@@ -15,20 +15,24 @@ struct SettingRowView: View {
     var linkDestination: String?
     
     var body: some View {
-        HStack {
-            Text(label).foregroundColor(.gray)
+        VStack {
+            Divider()
             
-            Spacer()
-            
-            if content != nil {
-                Text(content!)
-            } else if linkLabel != nil && linkDestination != nil {
-                Link(linkLabel!, destination: URL(string: linkDestination!)!)
+            HStack {
+                Text(label).foregroundColor(.gray)
                 
-                Image(systemName: "arrow.up.right.square")
-                    .foregroundColor(.secondary)
-            } else {
-                EmptyView()
+                Spacer()
+                
+                if content != nil {
+                    Text(content!)
+                } else if linkLabel != nil && linkDestination != nil {
+                    Link(linkLabel!, destination: URL(string: linkDestination!)!)
+                    
+                    Image(systemName: "arrow.up.right.square")
+                        .foregroundColor(.secondary)
+                } else {
+                    EmptyView()
+                }
             }
         }
     }

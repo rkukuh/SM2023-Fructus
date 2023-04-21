@@ -37,8 +37,6 @@ struct SettingView: View {
                     GroupBox(
                         label: SettingLabelView(text: "Application", image: "apps.iphone")
                     ) {
-                        Divider()
-                        
                         SettingRowView(label: "Developer", content: "R. Kukuh")
                         SettingRowView(label: "Website", linkLabel: "Personal Blog", linkDestination: "http://apple.com")
                         SettingRowView(label: "Version", content: "1.0")
