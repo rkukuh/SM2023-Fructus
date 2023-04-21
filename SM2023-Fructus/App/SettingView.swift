@@ -17,7 +17,23 @@ struct SettingView: View {
                 
                 VStack(spacing: 5) {
                     
-                    Text("Hello World")
+                    GroupBox(label:
+                        SettingLabelView(text: "Fructus", image: "info.circle")
+                    ) {
+                        Divider()
+                            .padding(.vertical, 4)
+                        
+                        HStack {
+                            Image("logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
+                                .cornerRadius(8)
+                            
+                            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit euismod dui ut hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+                                .font(.footnote)
+                        }
+                    } //: GroupBox
                     
                 } //: VStack
                 .navigationTitle("Settings")
