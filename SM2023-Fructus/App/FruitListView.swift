@@ -36,7 +36,7 @@ struct FruitListView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FruitListView_Previews: PreviewProvider {
     static var previews: some View {
         FruitListView()
     }
