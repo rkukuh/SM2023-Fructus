@@ -40,6 +40,7 @@ struct FruitDetailView: View {
                     
                 } //: VStack
                 .padding(.horizontal, 20)
+                .frame(maxWidth: 640)
                 
             } //: VStack
         } //: ScrollView
